@@ -220,6 +220,13 @@ body {
   font-weight: lighter;
 }
 
+  .nine img {
+  display: inline-block;
+  height: 350px;
+  max-width: 100%;
+  /* height: auto; */
+  }
+  
 #replay {
   cursor: pointer;
   z-index: 3;
@@ -290,9 +297,4 @@ body {
     font-weight: lighter;
   }
   
-  .nine img {
-  display: inline-block;
-  height: 350px;
-  max-width: 100%;
-  /* height: auto; */
 }
