@@ -68,14 +68,14 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=5")
+    "+=12")
     .to(".two",
         0.7,
         {
             opacity: 0,
             y: 10
         },
-    "-=1")
+    "-=5")
     .from(".three", 0.7, {
         opacity: 0,
         y: 10
