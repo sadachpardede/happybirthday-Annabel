@@ -200,7 +200,7 @@ const animationTimeline = () => {
         "-=1.5"
     )
     .from(".hat", 0.5, {
-        x: -370,
+        x: -100,
         y: 350,
         rotation: -180,
         opacity: 0,
@@ -254,7 +254,7 @@ const animationTimeline = () => {
     .to(".six", 0.5, {
         opacity: 0,
         y: 30,
-        zIndex: "-1",
+        zIndex: "-2",
     })
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
