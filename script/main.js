@@ -249,7 +249,7 @@ const animationTimeline = () => {
             repeat: 3,
             repeatDelay: 1.4,
         },
-        0.5
+        0.4
     )
     .to(".six", 0.5, {
         opacity: 0,
