@@ -215,24 +215,28 @@ body {
   margin: 10px 0 0;
 }
 
+.nine {
+  position: relative;
+  top: 10vh;
+  z-index: 1;
+}
+
+.nine img {
+  display: inline-block;
+  height: 350px;
+  max-width: 100%;
+  /* height: auto; */
+  }
+  
 .nine p {
   font-size: 2rem;
   font-weight: lighter;
 }
 
 
-  .nine {
-  position: relative;
-  top: 10vh;
-  z-index: 1;
-}
+  
 
-  .nine img {
-  display: inline-block;
-  height: 350px;
-  max-width: 100%;
-  /* height: auto; */
-  }
+
 
   
 #replay {
