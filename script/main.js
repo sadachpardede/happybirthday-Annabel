@@ -175,7 +175,7 @@ const animationTimeline = () => {
             ease: Expo.easeOut,
         },
         0.2,
-        "+=1"
+        "+=0.5"
     )
     .staggerFromTo(
         ".baloons img",
@@ -200,7 +200,7 @@ const animationTimeline = () => {
         "-=1.5"
     )
     .from(".hat", 0.5, {
-        x: -70,
+        x: -370,
         y: 350,
         rotation: -180,
         opacity: 0,
@@ -249,7 +249,7 @@ const animationTimeline = () => {
             repeat: 3,
             repeatDelay: 1.4,
         },
-        0.4
+        0.3
     )
     .to(".six", 0.5, {
         opacity: 0,
